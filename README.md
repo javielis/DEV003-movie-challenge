@@ -1,15 +1,6 @@
 # Movie Challenge
 
-## Índice
-
-- [1. Preámbulo](#1-preambulo)
-- [2. Resumen del proyecto](#2-resumen-del-proyecto)
-- [3. Consideraciones generales](#3-consideraciones-generales)
-- [4. Objetivos de aprendizaje](#4-objetivos-de-aprendizaje)
-- [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptacion-minimos-del-proyecto)
-- [6. Consideraciones técnicas](#6-consideraciones-tecnicas)
-
----
+-
 
 ## 1. Preámbulo
 
@@ -35,36 +26,12 @@ mencionar algunas ideas obvias).
 
 ## 2. Resumen del proyecto
 
-La idea de este proyecto es que, usando una API con información de películas,
-puedas idear, planear, organizar y desarrollar una aplicación web que aproveche
-estos datos y tenga una propuesta de valor atractiva para lxs usuarixs.
+La idea de este proyecto es que, usando una API con información de películas, el usuario pueda ver de 10 peliculas sus caracteristas para conocer mas de estas. se utilizo  los datos de la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database) con [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API) es creado con  Vanilla JavaScript.
 
-Aunque la decisión de qué hacer es enteramente tuya, hay algunas consideraciones
-generales que se presentan a continuación. Puedes cumplir esos requisitos en
-proyectos muy diferentes, ¡depende de tu creatividad y del entendimiento que
-tengas de tus potenciales usuarixs!
 
-## 3. Consideraciones generales
+![Prototipo de alta fidelidad](AltaFi.jpg)
 
-- Este proyecto se debe resolver en equipos de 2 o más personas.
-- Debes elegir y sustentar qué problema o necesidad estás resolviendo con el
-producto que estás diseñando y desarrollando.
-- Debes utilizar los datos de la API de [OMDB](http://www.omdbapi.com/) (The
-  Open Movie Database) con
-  [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API) o cualquier
-  otra API que encuentres.
-- Piensa en _test driven development_ al momento de programar la solución.
-  Tendrás que escribir las pruebas unitarias, aprovecha la oportunidad de
-  comenzar haciéndolo antes de escribir la funcionalidad.
-- Este proyecto es "agnóstico" a la tecnología que uses, es decir puedes
-  desarrollarlo en Vanilla JavaScript o algún _framework_  o biblioteca
-  (librería) de tu elección.
-- Intenta pensar en un alcance que, considerando su complejidad y la cantidad de
-  personas en el equipo, permita terminar el proyecto en 2 semanas.
 
-## 4. Objetivos de aprendizaje
-
-Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
 ### HTML
 
@@ -257,36 +224,4 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Pruebas con Usuarios 1 — ¿Qué, cuándo y para qué testeamos?](https://eugeniacasabona.medium.com/pruebas-con-usuarios-1-qu%C3%A9-cu%C3%A1ndo-y-para-qu%C3%A9-testeamos-7c3a89b4b5e7)
 </p></details>
 
-## 5. Criterios de aceptación mínimos del proyecto
 
-- Utilizar la API de OMDB mediante _Fetch_ para obtener y mostrar una interfaz
-  basada en los datos de cada respuesta.
-- Lo que sea que decidas hacer, deberás seleccionar aleatoriamente datos y
-  mostrarlos en alguna de las características de tu proyecto. Para esto
-  generalmente se usa el método `random` del objeto `Math` en JavaScript.
-- Tu solución debe ser _responsive_. Debe adaptarse a pantallas de escritorio,
-  tabletas y teléfonos.
-- Debes desplegar tu aplicación usando [GitHub Pages](https://pages.github.com/).
-
-## 6. Consideraciones técnicas
-
-- Para poder usar la API de OMDB deberás crear una llave (_key_) de acceso y
-  agregarla a cada petición que hagas al servidor (revisar sección _Usage_ de su
-  [sitio web](http://www.omdbapi.com/)), la llave la generas en este
-  [link](http://www.omdbapi.com/apikey.aspx) llenando el formulario con la
-  versión gratuita (_free_) seleccionada y luego revisando tu _email_ para
-  activarla y poder usarla.
-- Recuerda que GitHub Pages sirve sus páginas con un certificado
-  [SSL](https://es.wikipedia.org/wiki/Seguridad_de_la_capa_de_transporte) por lo
-  que las peticiones a la OMDB deben incluir `https` en la URL.
-- Recuerda que tienes un máximo de 1.000 peticiones diarias a la API de la OMDB
-  por cada [IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP), creemos que es
-  suficiente, pero te recomendamos hacer un uso responsable de este recurso
-  gratuito.
-
-## Contenido de referencia
-
-- [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
-- [Math.random](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math/random)
-
-Trata de divertirte. ¡a empezar esta aventura 🎬!
