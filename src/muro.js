@@ -6,7 +6,7 @@ export const muro = () => {
 
   const titulo = document.createElement('h1');
   titulo.classList.add('titulo');
-  titulo.textContent = 'Top 10 mejores';
+  titulo.textContent = 'Top 11 mejores';
   // const fondo = document.createElement('div');
   // fondo.innerHTML = ''
   // fondo.id = 'fondo';
